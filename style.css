@@ -1,0 +1,57 @@
+<style>
+  @font-face {
+    font-family: 'NNNouvelleGroteskSTD-Normal';
+    src: url('./dist/assets/fonts/nouvelle/NNNouvelleGroteskSTD-Normal.woff2') format('woff2'),
+         url('./dist/assets/fonts/nouvelle/NNNouvelleGroteskSTD-Normal.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  body {
+    font-family: 'NNNouvelleGroteskSTD-Normal', sans-serif;
+    background: #f5efe6;
+    margin: 0;
+    padding: 20px;
+    color: #2E283F;
+  }
+  /* Center container for title and subheader */
+  #header-wrapper {
+    text-align: center;
+    margin-bottom: 10px;
+    position: relative;
+  }
+  #page-header {
+    font-size: 60px;
+    font-weight: bold;
+    display: inline-block;
+    position: relative;
+    color: black;
+  }
+  #header-asterisk {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: -10px;
+    left: 100%;
+    margin-left: 4px;
+    pointer-events: none;
+  }
+  #westend-text {
+    color: #F39063;
+    font-weight: 700;
+    margin-left: 6px;
+  }
+  #colon-text {
+    color: black;
+    font-weight: 700;
+    margin-left: 2px;
+  }
+  #subheader {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 6px;
+    color: #2E283F;
+  }
+
+
+</style>
+
