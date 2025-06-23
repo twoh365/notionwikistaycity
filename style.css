@@ -92,3 +92,8 @@ margin-top: 0px;
   width: 10px;
   transform: translate(2px, -5px);
 }
+
+#emojis {
+display: inline-flex;
+  align-items: center;
+  }
